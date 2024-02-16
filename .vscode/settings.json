@@ -1,0 +1,6 @@
+{
+    "cSpell.enableFiletypes": [
+        "django-html"
+    ],
+    "python.analysis.autoImportCompletions": true
+}
