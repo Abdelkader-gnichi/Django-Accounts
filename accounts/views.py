@@ -11,7 +11,7 @@ def signup(request):
         form = SignupForm(request.POST)
         if form.is_valid():
             form.save()
-             # if you want to login manually
+             # directly login after sign-up
             username = request.POST['username']
             password = request.POST['password1']
             user = authenticate(request,username=username,password=password)
